@@ -1,0 +1,3 @@
+#!/bin/bash
+
+nohup ruby r2tzu2.rb &> /dev/null &
