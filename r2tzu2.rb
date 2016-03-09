@@ -31,7 +31,7 @@ bot = Cinch::Bot.new do
   end
 
   on :message, "!op" do |m|
-    if m.user.nick == 'dextertzu' || m.user.nick == 'dexter.tzu'
+    if m.user.nick == 'dextertzu' || m.user.nick == 'dexter.tzu' || m.user.nick == 'dtzuzu'
       m.channel.op(m.user)
     end
   end
